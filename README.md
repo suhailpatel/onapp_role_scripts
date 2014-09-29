@@ -22,7 +22,7 @@ You can also use your Email Address and API Key as the authentication method as 
 
 The import script (**onapp_import_role.py**) can be executed as follows:
 
-    python onapp_import_role.py <host> <user> <pass> <role-file> <role-label>
+    python onapp_import_role.py <host> <user> <pass> <role-file> <new-role-label>
 
 An example of this command to upload a role file `20.role.json` to the  http://mycloud.com OnApp Control Panel:
 
