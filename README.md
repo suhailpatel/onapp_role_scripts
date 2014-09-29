@@ -1,5 +1,7 @@
 # OnApp Roles Import/Export Scripts
 
+** Warning: ** Please only import and export roles within the same version of OnApp. Do not use the same role file between versions as permission changes between versions of OnApp will cause incorrect permissions to be set for your roles. 
+
 ## Exporting Roles
 
 The export script (**onapp_export_role.py**) can be executed as follows:
@@ -16,7 +18,7 @@ You can also use your Email Address and API Key as the authentication method as 
 
     python onapp_export_role.py http://mycloud.com 'admin@email.com' api_key 20
 
-## Importing Role
+## Importing a Role
 
 The import script (**onapp_import_role.py**) can be executed as follows:
 
@@ -30,7 +32,7 @@ This will import the role from the file `20.role.json` and give the new role a l
 
 ## Requirements
 
-These scripts have been tested on Python 2.7.5 running on Mac OSX. They don't have any external dependencies beyond Python and should work on any system. 
+These scripts have been tested on Python 2.7.5 running on Mac OSX. They don't have any external dependencies beyond Python and should work on any system. Tested on an OnApp 3.3 Cloud but should work on any OnApp 3.+ Cloud.
 
 ## License
 
